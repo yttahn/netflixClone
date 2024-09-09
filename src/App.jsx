@@ -7,6 +7,9 @@ import Banner from "./components/Banner";
 import Footer from "./components/Footer";
 
 function App() {
+
+const API_KEY = import.meta.env.VITE_API_KEY;
+  console.log(API_KEY)
 	return (
 		<div className="App">
 			<Nav />
