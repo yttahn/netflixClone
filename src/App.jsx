@@ -17,9 +17,9 @@ const API_KEY = import.meta.env.VITE_API_KEY;
 			<Row
 				title="NETFLIX ORIGINALS"
 				fetchUrl={requests.fetchNetflixOriginals}
-				isLargeRow
+				isLargeRow = "i"
 			/>
-			<Row title="Trending Now" fetchUrl={requests.fetchTrending} />
+			<Row title="Trending Now" fetchUrl={requests.fetchTrending} isLargeRow />
 			<Row title="Top Rated" fetchUrl={requests.fetchTopRatedMovies} />
 			<Row title="Action Movies" fetchUrl={requests.fetchActionMovies} />
 			<Row title="Comedy Movies" fetchUrl={requests.fetchComedyMovies} />
