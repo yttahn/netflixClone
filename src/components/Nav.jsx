@@ -25,7 +25,7 @@ function Nav() {
 		<div className={`nav ${show && "nav__black"}`}>
 			<img
 				className="nav__logo"
-				src=" "
+				src=" https://netflix-web.vercel.app/_next/image?url=%2F_next%2Fstatic%2Fimage%2Fassets%2Ficons%2Fnetflix-logo.dd346d18734d92365134c7c5db844714.svg&w=384&q=75"
 				alt="Netflix Logo"
 			/>
 			<img
